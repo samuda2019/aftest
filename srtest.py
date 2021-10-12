@@ -66,7 +66,8 @@ default_args = {
 dag = DAG(
     'srtest',
     default_args=default_args,
-    description='A simple tutorial DAG'    
+    description='A simple tutorial DAG',
+    schedule_interval=None
 )
 # [END instantiate_dag]
 
